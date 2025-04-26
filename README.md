@@ -34,3 +34,14 @@ Ensure you have the following installed on your machine:
 ## 3 Install Dependencies
 - Install Django-  pip install django
 
+## 4 Apply Migrations (If Using Django Models)
+- Run the following command: python manage.py migrate
+
+##  5 Run the Development Server
+- To run your project locally, start Django’s development server:
+- Run the command : python manage.py runserver
+## 6 View Your Portfolio Website Locally
+- Open a web browser.
+- Go to the URL shown in your terminal (usually http://127.0.0.1:8000/).
+- You should see your portfolio website running locally!
+
