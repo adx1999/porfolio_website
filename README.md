@@ -23,3 +23,10 @@ Ensure you have the following installed on your machine:
 - Python 3.x
 - Django (use pip install django)
 - SQLite (Django comes with an integrated SQLite database)
+## Steps to Run Locally
+## 1Clone Your Project Repository
+- 1 Open a terminal/command prompt.
+- 2 Navigate to the directory where you want to clone your project.
+- 3 Clone the repository by running:
+  git clone https://github.com/your-username/portfolio-website.git
+
