@@ -1,0 +1,180 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel = 'stylesheet' href = {%static 'style.css'%}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="header">
+    <header>
+        <nav>
+            <div class="left">
+                <p>Aditya</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+              
+            </div>
+        </nav>
+    </header>
+</div>
+    <main>
+        <section class="hero">
+            <div class="lefthero">
+                <h1>Hi, I am Aditya and  <br>I am a Software Developer</h1>
+                <p>My name is Aditya Sanjoli and I am Detail-oriented and highly motivated Python Devloper and Backened Developer fresher
+                    with a strong foundation in Web Devloping, and problem-solving. Proficient in like Python, SQL, Django, and with hands-on
+                    experience in HTML, CSS.</p>
+            </div>
+            <div class="righthero">
+                <img src="static/bg.png" >
+            </div>
+        </section>
+    </main>
+<!--Skillss-->
+<div id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="static/skils2.png">
+            </div>
+            <div class="about-col-1">
+                
+                <h1 class="sub-title">Skills</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorem suscipit non sint tempora optio maiores! Harum nulla, rerum deserunt temporibus fugit praesentium unde perspiciatis, cupiditate eligendi quibusdam reprehenderit adipisci.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('languages')">Languages</p>
+                    <p class="tab-links" onclick="opentab('database')">Database</p>
+                    <p class="tab-links" onclick="opentab('framework')">Framework</p>
+                    <p class="tab-links" onclick="opentab('others')">Others</p>
+                </div>
+                <div class="tab-contents active-tab" id="languages">
+                    <ul>
+                        <li>
+                            <p>Python</p>
+                            <p>Javascript</p>
+                            <p>Java</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>SQL</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="database">
+                    <ul>
+                        <li>
+                            <p>MySQL</p>
+                            <p>PosgreSQL</p>
+                            <p>MongoDB</p>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="framework">
+                    <ul>
+                        <li>
+                            <p>Django</p>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="others">
+                    <ul>
+                        <li>
+                            <p>RestAPI</p>
+                            <p>Git</p>
+                            <p>GitHub</p>
+                            <p>Excel</p>
+                            <p>VScode</p>
+                            <p>PowerBI</p>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Project-->
+<div id="project">
+    <div class="container">
+        <h1 class ="sub-title">My Project</h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-circle-user"></i>
+                <h2>Portfolio Website</h2>
+                <p>Designed and implemented a responsive portfolio UI using HTML, CSS (Flexbox/Grid),JavaScript and for backened django to ensure optimal user
+                    experience across devices.</p>
+                <a href ="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-building-columns"></i>
+                <h2>Bank Management System</h2>
+                <p>Developed a Bank Management System using Object-Oriented Programming (OOP) in Python.ls,
+                    Used classes and methods to design a structured and modular system.</p>
+                <a href ="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-clone"></i>
+                <h2>Amazon Clone </h2>
+                <p>Built a responsive Amazon clone using HTML and CSS, replicating key UI components such as the navigation bar, product grid, and
+                    footer layout.
+                    Implemented a clean and structured page layout using CSS Flexbox and Grid, ensuring responsiveness across different screen
+                    sizes.</p>
+                <a href ="#">learn more</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class ="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>example@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9123456890</p>
+                <div class="social-icon">
+                    <a href ="https://www.linkedin.com/in/aditya-sanjoli-a5a1a728a/"><img src ="static/li.png"></a>
+                    <a href ="https://github.com/adx1999"><img src ="static/gh.png"></a>
+                </div>
+                  <div class="cv">
+                    <a class = "btn" href ="static/cv.pdf" download >Download CV</a>
+                  </div>
+                  
+            </div>
+            <div class="contact-right">
+                <form method ="POST" action="/">
+                    {% csrf_token %}
+                    <input type ="text" name ="Name" placeholder = "Your name" required>
+                    <input type ="email" name ="Email" placeholder = "Your email" required>
+                    <textarea name = "Message" row ="10"placeholder ="Your message"></textarea>
+                    <button class ="btn2" type ="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright &#169 Aditya 2025 </p>
+</div>
+
+<script src ={%static 'script.js'%}></script>
+    
+   
+</body>
+</html>
