@@ -29,4 +29,8 @@ Ensure you have the following installed on your machine:
 - 2 Navigate to the directory where you want to clone your project.
 - 3 Clone the repository by running:
   git clone https://github.com/your-username/portfolio-website.git
+##  2Set Up Python Virtual Environment (Optional but Recommended)
+
+## 3 Install Dependencies
+- Install Django-  pip install django
 
