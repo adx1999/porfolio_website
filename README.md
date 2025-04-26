@@ -20,6 +20,6 @@ This project is a personal portfolio website built using HTML, CSS, JavaScript, 
 ## Installation
 Prerequisites
 Ensure you have the following installed on your machine:
--Python 3.x
--Django (use pip install django)
--SQLite (Django comes with an integrated SQLite database)
+- Python 3.x
+- Django (use pip install django)
+- SQLite (Django comes with an integrated SQLite database)
