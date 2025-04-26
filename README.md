@@ -11,3 +11,8 @@ This project is a personal portfolio website built using HTML, CSS, JavaScript, 
 - JavaScript
 ## Backend:
 - Django (Python)
+
+## Features
+- Contact Form: Users can submit their contact information, which is stored in the Django backend database.
+- Project Showcase: Display of various projects and technologies I have worked with.
+- Clean UI/UX: The site has a minimalistic and user-friendly design, with smooth navigation and
